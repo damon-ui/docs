@@ -1,0 +1,67 @@
+---
+title: Payments
+description: Collect planning fees from clients
+---
+
+# Payments
+
+Collect planning fees and deposits directly through FORGE using Stripe.
+
+## Setting Up Payments
+
+Before you can request payments, connect your Stripe account:
+
+1. Go to **Settings** > **Payments**
+2. Click **Connect Stripe Account**
+3. Follow the Stripe onboarding process
+4. Once connected, you're ready to accept payments
+
+<Info>
+Stripe handles all payment processing. FORGE never sees your clients' card numbers.
+</Info>
+
+## Requesting a Payment
+
+1. Go to **Payments** section
+2. Click **Request Payment**
+3. Enter:
+   - Client name
+   - Client email (optional, for sending link)
+   - Amount
+   - Description (e.g., "Trip planning fee")
+4. Click **Create Payment Link**
+
+## Sharing Payment Links
+
+After creating a payment request:
+
+- **Copy Link** — Send manually via email or text
+- **Email Link** — Send directly from FORGE (requires client email)
+
+## Tracking Payments
+
+The Payments section shows all your payment requests:
+
+| Status | Meaning |
+|--------|---------|
+| **Pending** | Link sent, awaiting payment |
+| **Paid** | Client completed payment |
+| **Refunded** | Payment was refunded |
+
+Click any payment to view details or copy the link again.
+
+## Refunds
+
+If you need to issue a refund:
+
+1. Click the paid payment
+2. Click **Refund**
+3. Confirm the refund
+
+<Warning>
+Refunds are processed through Stripe and may take 5-10 business days to appear on your client's statement.
+</Warning>
+
+## Fees
+
+Stripe charges standard processing fees (typically 2.9% + $0.30 per transaction). FORGE does not charge additional fees on payments.
